@@ -8,6 +8,10 @@
 
 #import "FWAppDelegate.h"
 #import "FWHomeViewController.h"
+#import "FWExploreViewController.h"
+#import "FWCameraViewController.h"
+#import "FWMapViewController.h"
+#import "FWProfileViewController.h"
 
 @implementation FWAppDelegate
 
@@ -16,11 +20,14 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
-    UIViewController *homeController = [[FWHomeViewController alloc] init];
+    FWHomeViewController *homeController = [[FWHomeViewController alloc] init];
+    FWExploreViewController *exploreController = [[FWExploreViewController alloc] init];
+    FWCameraViewController *cameraController = [[FWCameraViewController alloc] init];
+    FWMapViewController *mapController = [[FWMapViewController alloc] init];
+    FWProfileViewController *profileController = [[FWProfileViewController alloc] init];
     
     UITabBarController *tabController = [[UITabBarController alloc] init];
-    
-    tabController.viewControllers = @[homeController];
+    tabController.viewControllers = @[homeController, exploreController, cameraController, mapController, profileController];
     
     self.window.rootViewController = tabController;
         
