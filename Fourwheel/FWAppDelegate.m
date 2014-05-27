@@ -18,8 +18,12 @@
     
     UIViewController *homeController = [[FWHomeViewController alloc] init];
     
-    self.window.rootViewController = homeController;
+    UITabBarController *tabController = [[UITabBarController alloc] init];
     
+    tabController.viewControllers = @[homeController];
+    
+    self.window.rootViewController = tabController;
+        
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
