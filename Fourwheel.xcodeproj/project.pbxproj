@@ -21,6 +21,14 @@
 		071A3A3A1935165F00EE449E /* FourwheelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A3A391935165F00EE449E /* FourwheelTests.m */; };
 		071A3A46193516CC00EE449E /* FWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A3A44193516CC00EE449E /* FWHomeViewController.m */; };
 		071A3A47193516CC00EE449E /* FWHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 071A3A45193516CC00EE449E /* FWHomeViewController.xib */; };
+		071A3A4B19352A4100EE449E /* FWExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A3A4919352A4100EE449E /* FWExploreViewController.m */; };
+		071A3A4C19352A4100EE449E /* FWExploreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 071A3A4A19352A4100EE449E /* FWExploreViewController.xib */; };
+		071A3A5019352A7700EE449E /* FWCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A3A4E19352A7700EE449E /* FWCameraViewController.m */; };
+		071A3A5119352A7700EE449E /* FWCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 071A3A4F19352A7700EE449E /* FWCameraViewController.xib */; };
+		071A3A5519352AAD00EE449E /* FWMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A3A5319352AAD00EE449E /* FWMapViewController.m */; };
+		071A3A5619352AAD00EE449E /* FWMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 071A3A5419352AAD00EE449E /* FWMapViewController.xib */; };
+		071A3A5919352AE200EE449E /* FWProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A3A5819352AE200EE449E /* FWProfileViewController.m */; };
+		071A3A5B19352B6E00EE449E /* FWProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 071A3A5A19352B6E00EE449E /* FWProfileViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,18 @@
 		071A3A43193516CC00EE449E /* FWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWHomeViewController.h; sourceTree = "<group>"; };
 		071A3A44193516CC00EE449E /* FWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWHomeViewController.m; sourceTree = "<group>"; };
 		071A3A45193516CC00EE449E /* FWHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FWHomeViewController.xib; sourceTree = "<group>"; };
+		071A3A4819352A4100EE449E /* FWExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWExploreViewController.h; sourceTree = "<group>"; };
+		071A3A4919352A4100EE449E /* FWExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWExploreViewController.m; sourceTree = "<group>"; };
+		071A3A4A19352A4100EE449E /* FWExploreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FWExploreViewController.xib; sourceTree = "<group>"; };
+		071A3A4D19352A7700EE449E /* FWCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWCameraViewController.h; sourceTree = "<group>"; };
+		071A3A4E19352A7700EE449E /* FWCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWCameraViewController.m; sourceTree = "<group>"; };
+		071A3A4F19352A7700EE449E /* FWCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FWCameraViewController.xib; sourceTree = "<group>"; };
+		071A3A5219352AAD00EE449E /* FWMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWMapViewController.h; sourceTree = "<group>"; };
+		071A3A5319352AAD00EE449E /* FWMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWMapViewController.m; sourceTree = "<group>"; };
+		071A3A5419352AAD00EE449E /* FWMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FWMapViewController.xib; sourceTree = "<group>"; };
+		071A3A5719352AE200EE449E /* FWProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWProfileViewController.h; sourceTree = "<group>"; };
+		071A3A5819352AE200EE449E /* FWProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWProfileViewController.m; sourceTree = "<group>"; };
+		071A3A5A19352B6E00EE449E /* FWProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FWProfileViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +134,18 @@
 			children = (
 				071A3A231935165F00EE449E /* FWAppDelegate.h */,
 				071A3A241935165F00EE449E /* FWAppDelegate.m */,
+				071A3A4819352A4100EE449E /* FWExploreViewController.h */,
+				071A3A4919352A4100EE449E /* FWExploreViewController.m */,
+				071A3A4A19352A4100EE449E /* FWExploreViewController.xib */,
+				071A3A4D19352A7700EE449E /* FWCameraViewController.h */,
+				071A3A4E19352A7700EE449E /* FWCameraViewController.m */,
+				071A3A4F19352A7700EE449E /* FWCameraViewController.xib */,
+				071A3A5219352AAD00EE449E /* FWMapViewController.h */,
+				071A3A5319352AAD00EE449E /* FWMapViewController.m */,
+				071A3A5419352AAD00EE449E /* FWMapViewController.xib */,
+				071A3A5719352AE200EE449E /* FWProfileViewController.h */,
+				071A3A5819352AE200EE449E /* FWProfileViewController.m */,
+				071A3A5A19352B6E00EE449E /* FWProfileViewController.xib */,
 				071A3A43193516CC00EE449E /* FWHomeViewController.h */,
 				071A3A44193516CC00EE449E /* FWHomeViewController.m */,
 				071A3A45193516CC00EE449E /* FWHomeViewController.xib */,
@@ -228,9 +260,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071A3A5B19352B6E00EE449E /* FWProfileViewController.xib in Resources */,
 				071A3A47193516CC00EE449E /* FWHomeViewController.xib in Resources */,
 				071A3A1F1935165F00EE449E /* InfoPlist.strings in Resources */,
+				071A3A5119352A7700EE449E /* FWCameraViewController.xib in Resources */,
 				071A3A271935165F00EE449E /* Images.xcassets in Resources */,
+				071A3A5619352AAD00EE449E /* FWMapViewController.xib in Resources */,
+				071A3A4C19352A4100EE449E /* FWExploreViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071A3A5919352AE200EE449E /* FWProfileViewController.m in Sources */,
 				071A3A211935165F00EE449E /* main.m in Sources */,
+				071A3A5019352A7700EE449E /* FWCameraViewController.m in Sources */,
+				071A3A5519352AAD00EE449E /* FWMapViewController.m in Sources */,
 				071A3A251935165F00EE449E /* FWAppDelegate.m in Sources */,
 				071A3A46193516CC00EE449E /* FWHomeViewController.m in Sources */,
+				071A3A4B19352A4100EE449E /* FWExploreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +488,7 @@
 				071A3A3F1935165F00EE449E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		071A3A401935165F00EE449E /* Build configuration list for PBXNativeTarget "FourwheelTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +497,7 @@
 				071A3A421935165F00EE449E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
