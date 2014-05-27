@@ -7,6 +7,7 @@
 //
 
 #import "FWAppDelegate.h"
+#import "FWHomeViewController.h"
 
 @implementation FWAppDelegate
 
@@ -14,6 +15,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    UIViewController *homeController = [[FWHomeViewController alloc] init];
+    
+    self.window.rootViewController = homeController;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

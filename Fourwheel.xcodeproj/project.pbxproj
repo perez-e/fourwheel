@@ -19,6 +19,8 @@
 		071A3A301935165F00EE449E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071A3A181935165F00EE449E /* UIKit.framework */; };
 		071A3A381935165F00EE449E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 071A3A361935165F00EE449E /* InfoPlist.strings */; };
 		071A3A3A1935165F00EE449E /* FourwheelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A3A391935165F00EE449E /* FourwheelTests.m */; };
+		071A3A46193516CC00EE449E /* FWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A3A44193516CC00EE449E /* FWHomeViewController.m */; };
+		071A3A47193516CC00EE449E /* FWHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 071A3A45193516CC00EE449E /* FWHomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		071A3A351935165F00EE449E /* FourwheelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FourwheelTests-Info.plist"; sourceTree = "<group>"; };
 		071A3A371935165F00EE449E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		071A3A391935165F00EE449E /* FourwheelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourwheelTests.m; sourceTree = "<group>"; };
+		071A3A43193516CC00EE449E /* FWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWHomeViewController.h; sourceTree = "<group>"; };
+		071A3A44193516CC00EE449E /* FWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWHomeViewController.m; sourceTree = "<group>"; };
+		071A3A45193516CC00EE449E /* FWHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FWHomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				071A3A231935165F00EE449E /* FWAppDelegate.h */,
 				071A3A241935165F00EE449E /* FWAppDelegate.m */,
+				071A3A43193516CC00EE449E /* FWHomeViewController.h */,
+				071A3A44193516CC00EE449E /* FWHomeViewController.m */,
+				071A3A45193516CC00EE449E /* FWHomeViewController.xib */,
 				071A3A261935165F00EE449E /* Images.xcassets */,
 				071A3A1B1935165F00EE449E /* Supporting Files */,
 			);
@@ -220,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071A3A47193516CC00EE449E /* FWHomeViewController.xib in Resources */,
 				071A3A1F1935165F00EE449E /* InfoPlist.strings in Resources */,
 				071A3A271935165F00EE449E /* Images.xcassets in Resources */,
 			);
@@ -242,6 +251,7 @@
 			files = (
 				071A3A211935165F00EE449E /* main.m in Sources */,
 				071A3A251935165F00EE449E /* FWAppDelegate.m in Sources */,
+				071A3A46193516CC00EE449E /* FWHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
